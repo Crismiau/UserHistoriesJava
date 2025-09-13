@@ -34,6 +34,7 @@ public class MiniStore {
                     "4. Show statistics\n" +
                     "5. Search product by name\n" +
                     "6. Exit\n" +
+
                     "Select an option:";
 
             String input = JOptionPane.showInputDialog(menu);
@@ -48,6 +49,7 @@ public class MiniStore {
                        so this prevents the program from crashing and resets the option */
                     JOptionPane.showMessageDialog(null, "Enter a valid number");
                     option = 0;
+
                 }
             }
 
